@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="head-nav">
+      <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_iwmd6pyr.json"  background="transparent"  speed="1" loop  autoplay></lottie-player>
+
+    </div>
+  </div>
+    <h1> Pokemon Cards</h1>
+
+    
+    <form id="poke-search-form">
+      <input type="text" name="search-input" id="search-input" />
+      <button class="search-btn">
+        <i class="fas fa-search"></i>
+      </button>
+    </form>
+
+    <div class="poke-container"></div>
+    <div class="poke-navigation">
+      <span class="nav-button" id="load-button">Load New Pokemons </span>
+    </div>
+
+    <span class="back-to-top-button"></span>
+
+    <footer class="poke-footer">
+      <span>
+        Coded by
+        <a href="https://github.com/em1ne">Emine inal</a>
+        - 2023
+      </span>
+      
+    </footer>
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
